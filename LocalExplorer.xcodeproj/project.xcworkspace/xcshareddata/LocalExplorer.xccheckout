@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>740F51C9-1708-427F-B20F-2E5F8F05EBE4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LocalExplorer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D3F15F6CE56E0A757994DEA871CA76E0A24BC27E</key>
+		<string>https://github.com/JinlianWang/LocalExplorer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LocalExplorer.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D3F15F6CE56E0A757994DEA871CA76E0A24BC27E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/JinlianWang/LocalExplorer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D3F15F6CE56E0A757994DEA871CA76E0A24BC27E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D3F15F6CE56E0A757994DEA871CA76E0A24BC27E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LocalExplorer</string>
+		</dict>
+	</array>
+</dict>
+</plist>
