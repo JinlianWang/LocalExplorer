@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SearchResultDetailsUIViewController.h
 //  LocalExplorer
 //
 //  Created by Wang, Jinlian on 6/13/14.
@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 
-@interface ViewController : UIViewController<CLLocationManagerDelegate,MKMapViewDelegate>
+@interface SearchResultDetailsUIViewController : UIViewController
+
+@property (strong, nonatomic)  MKPlacemark *annotation;
 
 @end

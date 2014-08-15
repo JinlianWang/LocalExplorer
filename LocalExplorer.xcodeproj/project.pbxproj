@@ -21,6 +21,10 @@
 		1DC13522194B2F4F0097368C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC13504194B2F4F0097368C /* UIKit.framework */; };
 		1DC1352A194B2F4F0097368C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DC13528194B2F4F0097368C /* InfoPlist.strings */; };
 		1DC1352C194B2F4F0097368C /* LocalExplorerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC1352B194B2F4F0097368C /* LocalExplorerTests.m */; };
+		1DC13536194B2FFD0097368C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC13535194B2FFD0097368C /* MapKit.framework */; };
+		1DC1353B194B58980097368C /* icon_atm_pin_atm.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DC1353A194B58980097368C /* icon_atm_pin_atm.png */; };
+		1DC1353F194B69FB0097368C /* SearchResultDetailsUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC1353D194B69FB0097368C /* SearchResultDetailsUIViewController.m */; };
+		1DC13540194B69FB0097368C /* SearchResultDetailsUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DC1353E194B69FB0097368C /* SearchResultDetailsUIViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,11 @@
 		1DC13527194B2F4F0097368C /* LocalExplorerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalExplorerTests-Info.plist"; sourceTree = "<group>"; };
 		1DC13529194B2F4F0097368C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1DC1352B194B2F4F0097368C /* LocalExplorerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalExplorerTests.m; sourceTree = "<group>"; };
+		1DC13535194B2FFD0097368C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1DC1353A194B58980097368C /* icon_atm_pin_atm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_atm_pin_atm.png; path = ../../../../WorkingCopies/1.10.dev/apps/EnterpriseTablet/ipad/native/Resources/ATM/icon_atm_pin_atm.png; sourceTree = "<group>"; };
+		1DC1353C194B69FB0097368C /* SearchResultDetailsUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultDetailsUIViewController.h; sourceTree = "<group>"; };
+		1DC1353D194B69FB0097368C /* SearchResultDetailsUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultDetailsUIViewController.m; sourceTree = "<group>"; };
+		1DC1353E194B69FB0097368C /* SearchResultDetailsUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchResultDetailsUIViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DC13536194B2FFD0097368C /* MapKit.framework in Frameworks */,
 				1DC13503194B2F4F0097368C /* CoreGraphics.framework in Frameworks */,
 				1DC13505194B2F4F0097368C /* UIKit.framework in Frameworks */,
 				1DC13501194B2F4F0097368C /* Foundation.framework in Frameworks */,
@@ -101,6 +111,7 @@
 		1DC134FF194B2F4F0097368C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1DC13535194B2FFD0097368C /* MapKit.framework */,
 				1DC13500194B2F4F0097368C /* Foundation.framework */,
 				1DC13502194B2F4F0097368C /* CoreGraphics.framework */,
 				1DC13504194B2F4F0097368C /* UIKit.framework */,
@@ -117,8 +128,12 @@
 				1DC13512194B2F4F0097368C /* Main.storyboard */,
 				1DC13515194B2F4F0097368C /* ViewController.h */,
 				1DC13516194B2F4F0097368C /* ViewController.m */,
+				1DC1353A194B58980097368C /* icon_atm_pin_atm.png */,
 				1DC13518194B2F4F0097368C /* Images.xcassets */,
 				1DC13507194B2F4F0097368C /* Supporting Files */,
+				1DC1353C194B69FB0097368C /* SearchResultDetailsUIViewController.h */,
+				1DC1353D194B69FB0097368C /* SearchResultDetailsUIViewController.m */,
+				1DC1353E194B69FB0097368C /* SearchResultDetailsUIViewController.xib */,
 			);
 			path = LocalExplorer;
 			sourceTree = "<group>";
@@ -228,7 +243,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DC1353B194B58980097368C /* icon_atm_pin_atm.png in Resources */,
 				1DC13519194B2F4F0097368C /* Images.xcassets in Resources */,
+				1DC13540194B69FB0097368C /* SearchResultDetailsUIViewController.xib in Resources */,
 				1DC1350B194B2F4F0097368C /* InfoPlist.strings in Resources */,
 				1DC13514194B2F4F0097368C /* Main.storyboard in Resources */,
 			);
@@ -249,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DC1353F194B69FB0097368C /* SearchResultDetailsUIViewController.m in Sources */,
 				1DC13517194B2F4F0097368C /* ViewController.m in Sources */,
 				1DC13511194B2F4F0097368C /* AppDelegate.m in Sources */,
 				1DC1350D194B2F4F0097368C /* main.m in Sources */,
@@ -333,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -365,7 +383,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -380,6 +398,7 @@
 				GCC_PREFIX_HEADER = "LocalExplorer/LocalExplorer-Prefix.pch";
 				INFOPLIST_FILE = "LocalExplorer/LocalExplorer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -393,6 +412,7 @@
 				GCC_PREFIX_HEADER = "LocalExplorer/LocalExplorer-Prefix.pch";
 				INFOPLIST_FILE = "LocalExplorer/LocalExplorer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
